@@ -1,0 +1,217 @@
+body {
+   /* background-color: red; */
+   margin: 0;
+   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header {
+   background-color: white;
+   height: 65px;
+   /*74*/
+}
+
+header p {
+   position: relative;
+   width: 200px;
+   letter-spacing: 7px;
+   font-weight: 1000;
+   top: 31px;
+   left: 351px;
+}
+
+.search {
+   position: relative;
+   top: 3px;
+   left: 304px;
+   height: 15px;
+   width: 15px;
+}
+
+.shopping_bag {
+   position: relative;
+   top: 3px;
+   left: 346px;
+   height: 15px;
+   width: 15px;
+}
+
+header nav {
+   /* background-color: red; */
+   position: relative;
+   width: 700px;
+   top: -4px;
+   /* -4 */
+   left: 648px;
+   /* 583*/
+}
+
+header nav ul {
+   list-style-type: none;
+   background-color: red;
+   text-align: center;
+}
+
+header nav ul li {
+   float: left;
+   /* display: inline; */
+}
+
+header nav ul li a {
+   display: block;
+   /* padding:  10 20px; */
+   letter-spacing: 1px;
+   font-size: 13px;
+   padding-bottom: 5px;
+   margin-left: 30px;
+   text-decoration: none;
+   color: black;
+}
+
+header nav ul li a:hover {
+   border-bottom: 2px solid black;
+}
+
+.active {
+   border-bottom: 2px solid black;
+}
+
+.That_grey_bar{
+   background-color: #EEEEEE;
+   height: 60px;
+
+}
+.That_Text{
+   
+   position: relative;
+   font-weight: 500;
+   font-size: 14px;
+   top: 24px;
+   letter-spacing: 2px;
+   width: 300px;
+}
+.cyan_Text{
+   color: #51eaea;
+}
+
+.form {
+   border: 2px solid grey;
+   border-radius: 50px;
+   width: 500px;
+   margin: 190px auto;
+   padding: 20px;
+   background: white;
+   font-weight: bold;
+   color: maroon;
+   text-align: fixed;
+   position: center;
+}
+
+#header {
+   background: #f7f7f7;
+   border-bottom: 2px solid #f0f0f0;
+   padding: 20px 20px;
+   margin-top: 0;
+}
+
+#reset {
+   border: none;
+   margin-right: 120px;
+   float: right;
+   width: 100px;
+   height: 30px;
+   background-color: rgb(84,227,230);
+}
+
+#submit {
+   border: none;
+   margin-left: 120px;
+   float: left;
+   width: 100px;
+   height: 30px;
+   background-color: rgb(84,227,230);
+}
+
+#FN {
+   float: left;
+   margin-left: 50px;
+}
+
+#LN {
+   float: right;
+   margin-right: 130px;
+}
+
+#fname {
+   float: left;
+   margin-left: 50px;
+}
+
+#lname {
+   float: right;
+   margin-right: 50px;
+}
+
+#UN {
+   float: left;
+   margin-left: 50px;
+}
+
+#MN {
+   float: right;
+   margin-right: 130px;
+}
+
+#uname {
+   float: left;
+   margin-left: 50px;
+}
+
+#mobile {
+   float: right;
+   margin-right: 50px;
+}
+
+#EL {
+   float: left;
+   margin-left: 50px;
+}
+
+#eml {
+   float: left;
+   margin-left: 50px;
+}
+
+#AG {
+   float: right;
+   margin-right: 190px;
+}
+
+#age {
+   float: right;
+   margin-right: 50px;
+}
+
+#gender {
+   float: left;
+   margin-left: 50px;
+}
+
+#PWD {
+   float: left;
+   margin-left: 50px;
+}
+
+#CWD {
+   float: right;
+   margin-right: 50px;
+}
+
+#password {
+   float: left;
+   margin-left: 50px;
+}
+
+#cpassword {
+   float: right;
+   margin-right: 50px;
+}
